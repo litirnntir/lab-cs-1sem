@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace lab8
+namespace LAB_8
 {
     static class Program
     {
@@ -14,6 +14,7 @@ namespace lab8
         [STAThread]
         static void Main()
         {
+            //запуск формы
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
